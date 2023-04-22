@@ -1,0 +1,118 @@
+
+body
+{
+  position: relative;
+  padding-bottom: 30em;
+  margin: 0;
+  min-height: 100vh;
+  background-color: #242424;
+  background: url('https://www.hometheaterforum.com/wp-content/uploads/2018/03/POSTER_movie_film_movies_posters_5120x3620-1024x724.jpg');
+}
+
+
+#fondo
+{
+  background-color: rgba(0, 0, 0, 0.673);
+}
+
+
+#Encabezado
+{
+ 
+}
+
+img
+{
+    
+    height: 300px;
+transition: 1s;
+  }
+
+img:hover
+{
+  width: 400px;
+  height: 400px;
+  transition: 1s;
+}
+
+
+#logo
+{
+  border-radius: 100px;
+  width: 80px;
+  height: 80px;
+}
+
+#id
+{
+  visibility: hidden;
+}
+
+footer{
+  background: #414141;
+  padding: 20px;
+  padding-bottom: 1em ;
+ bottom: 0;
+ position: absolute;
+ width: 100%;
+}
+
+.contenedor-footer{
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+  text-align: center;
+}
+
+.content-foo h4{
+  color: #fff;
+  border-bottom: 3px solid #af20d3;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.content-foo p{
+  color: #ccc;
+}
+
+.titulo-final{
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+  color: #9e9797;
+}
+
+#icon
+{
+background-color: white;
+}
+
+span
+{
+ background-color: white;
+ border-radius: 10px;
+}
+
+
+#tarjeta{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#pelis {
+  width: 18rem;
+ 
+  margin-right: 20px; /* Para agregar un espacio entre cada contenedor */
+  margin-bottom: 20px; /* Para agregar un espacio entre filas */
+}
+
+
+
+
+
