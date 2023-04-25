@@ -21,6 +21,7 @@ body
  
 }
 
+
 img
 {
     
@@ -28,12 +29,18 @@ img
 transition: 1s;
   }
 
-img:hover
+img:hover 
 {
-  width: 400px;
   height: 400px;
   transition: 1s;
 }
+
+#texto
+{
+
+transition: 2s;
+}
+
 
 
 #logo
@@ -106,10 +113,15 @@ span
 }
 
 #pelis {
-  width: 18rem;
- 
+  width: 18rem;  
   margin-right: 20px; /* Para agregar un espacio entre cada contenedor */
   margin-bottom: 20px; /* Para agregar un espacio entre filas */
+}
+
+#pelis:hover #texto
+{
+display: block;  
+transition: 2s;
 }
 
 
